@@ -1,0 +1,269 @@
+
+@font-face {
+    font-family: 'Muli Black';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Muli/Muli-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Muli Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Muli/Muli-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Open_Sans/OpenSans-Bold.ttf') format("truetype");
+}
+
+body {
+  overflow-x: hidden !important;
+  height: 100%;
+  margin: 0;
+  display: block;
+  font-family: 'Open Sans';
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  box-shadow: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  line-height: 42px;
+  color: inherit;
+}
+
+nav {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+nav .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: table;
+  width: 100%;
+  padding: 0 50px;
+}
+
+nav .container > div {
+  display: table-cell;
+  width: 50%;
+  height: 70px;
+  vertical-align: middle;
+}
+
+nav .container a.logo {
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Muli Black';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  color: black;
+}
+
+.lite {
+  opacity: 0.3;
+}
+
+nav .container a.logo:hover {
+  color: inherit;
+}
+
+nav .container a {
+  transition: 0.3s all 0s ease;
+}
+
+nav .container a:hover {
+  opacity: 0.7;
+}
+
+
+nav .container .logo img {
+  width: 100px;
+}
+
+nav .container .links {
+  text-align: right;
+  font-family: 'Muli Black';
+  height: auto;
+}
+
+nav .container .links a {
+  font-family: 'Muli Black';
+  text-transform: uppercase;
+  font-size: 22px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+nav .container .links > a {
+  margin-right: 30px;
+}
+
+nav .container .links > a:last-child {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .card-container {
+    margin-bottom: 20px;
+  }
+
+  .no-margin-bottom {
+    margin-bottom: 0;
+  }
+
+  .spotify-card,
+  .sqrl-card,
+  .dc-card {
+    background-size: cover;
+  }
+
+  .projects-div > .row {
+    margin-bottom: 0;
+  }
+
+  nav .container .logo img {
+    width: 100px;
+  }
+
+  nav .container .links a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav .container > div {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  nav .container .links {
+    text-align: center;
+  }
+
+  .projects-div {
+    padding: 0 20px;
+  }
+}
+
+p.intro {
+  line-height: 26px;
+}
+ p.intro > .link {
+  color: #;
+  display: inline;
+  box-shadow: inset 0 -.125rem 0 #;
+  transition: box-shadow .15s ease;
+ }
+
+.intro-body .name {
+  font-family: 'Muli Bold';
+  font-size: 42px;
+  letter-spacing: 1px;
+  color: #234ef3;
+}
+
+.intro-body .name .light {
+  color: #c7d2f9;
+}
+
+.intro-body .subtitle {
+  text-transform: uppercase;
+  font-family: 'Muli Bold';
+  color: #9AB5FF;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.intro-body .subtitle::after {
+  margin: 30px 0;
+  content: '';
+  width: 50px;
+  border-bottom: 1px solid #ccc;
+  display: block;
+}
+
+.intro-body .intro {
+  color: black;
+}
+
+.intro-body .intro img {
+  margin: -3px 10px;
+  height: 30px;
+}
+
+.portfolio .header .content {
+  display: table;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.portfolio .header .content > div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.portfolio .header .content > div:last-child {
+  width: 60%;
+}
+
+.portfolio .header .title {
+  margin-bottom: 30px;
+}
+
+.portfolio .header .desc {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.portfolio .header {
+  position: relative;
+  padding: 0;
+}
+
+header > div {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: table;
+  padding: 0 50px;
+  width: 100%;
+}
+
+header > div > div  {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+header .profile-img img {
+  float: right;
+  border-radius: 50%;
+}
