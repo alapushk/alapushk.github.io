@@ -377,6 +377,16 @@ header .profile-img img {
   height: 100%;
 }
 
+.portfolio .create-protest .content .bottom-bg1 {
+  position: absolute;
+  background: url(../img/oyan/bottom-bg1.svg) bottom center no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: -50px;
+  width: 101%;
+  height: 100%;
+}
+
 .portfolio .concept {
   margin-top: 45px;
   padding-bottom: 1px;
@@ -401,6 +411,7 @@ section > div {
 
 .portfolio .section-title {
   font-family: 'Muli Black';
+  color: #323232;
   font-size: 28px;
   padding-top: 100px;
   letter-spacing: 1.5px;
@@ -442,4 +453,64 @@ section > div {
 
 .portfolio .concept p {
   opacity: 0.7;
+}
+
+.section-table {
+  display: table;
+  width: 100%;
+}
+
+.section-table > div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  padding-right: 25px;
+}
+
+.section-table > div:last-child {
+  padding-left: 25px;
+}
+
+.section-table .gif-image {
+  height: 70vh;
+  display: initial;
+}
+
+.section-table .gif-image img {
+  max-height: 70vh;
+  margin: auto;
+}
+
+.create-protest {
+  position: relative;
+}
+
+.create-protest .full-image {
+  margin-top: -100px;
+}
+
+.create-protest .title {
+  font-size: 18px;
+  color: #323232;
+  margin-bottom: 20px;
+  font-family: 'Muli Bold';
+  text-transform: uppercase;
+}
+
+.create-protest .desc {
+  font-size: 18px;
+  color: #323232;
+  opacity: 0.7
+}
+
+.create-protest .text {
+  padding: 0 50px;
+}
+
+.section-title.center {
+  text-align: center;
+}
+
+.create-protest .content {
+  padding-bottom: 0px;
 }
