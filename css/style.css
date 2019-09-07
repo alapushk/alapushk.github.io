@@ -327,7 +327,7 @@ header .profile-img img {
   border-radius: 50%;
 }
 
-.oyan .header .title img {
+.portfolio .header .title img {
   height: 60px;
 }
 
@@ -380,6 +380,13 @@ header .profile-img img {
 .grey-bg {
   display: block;
   background-color: #FAFAFA;
+}
+
+.grey-bg2 {
+  display: block;
+  background-color: #F7F7F7;
+  padding: 50px 0 20px 0;
+  margin: 0;
 }
 
 section > div {
