@@ -211,46 +211,6 @@ nav .container .links > a:last-child {
   transition: 0.3s all 0s ease;
 }
 
-@media only screen and (max-width: 991px) {
-  .card-container {
-    margin-bottom: 20px;
-  }
-
-  .no-margin-bottom {
-    margin-bottom: 0;
-  }
-
-  .projects-div > .row {
-    margin-bottom: 0;
-  }
-
-  nav .container .logo img {
-    width: 100px;
-  }
-
-  nav .container .links a {
-    font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  nav .container > div {
-    width: 100%;
-    display: block;
-    text-align: center;
-    height: auto;
-    margin-bottom: 0;
-  }
-
-  nav .container .links {
-    text-align: center;
-  }
-
-  .projects-div {
-    padding: 0 20px;
-  }
-}
-
 p.intro {
   line-height: 26px;
 }
@@ -513,4 +473,185 @@ section > div {
 
 .create-protest .content {
   padding-bottom: 0px;
+}
+.portfolio .map {
+  margin-top: 0px;
+}
+
+.map .section-desc {
+  font-size: 18px;
+  color: #323232;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.map .text .title {
+  font-family: 'Open Sans Bold';
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.map .text {
+  padding: 0 150px;
+}
+
+.map .text p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #323232;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.map .text p.lead {
+  font-family: 'Muli Bold';
+  font-size: 18px;
+  line-height: 26px;
+  color: #323232;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .card-container {
+    margin-bottom: 20px;
+  }
+
+  .no-margin-bottom {
+    margin-bottom: 0;
+  }
+
+  .projects-div > .row {
+    margin-bottom: 0;
+  }
+
+  nav .container .logo img {
+    width: 100px;
+  }
+
+  nav .container .links a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  nav .container > div {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  nav .container .links {
+    text-align: center;
+  }
+
+  .projects-div {
+    padding: 0 20px;
+  }
+
+  nav .container > a.logo {
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+  }
+
+  nav {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+  }
+
+  nav::after {
+    content: '';
+    border-bottom: 1px solid black;
+    width: 50px;
+    margin: 10px auto;
+  }
+
+  .portfolio .header {
+    padding: 0;
+  }
+
+  .portfolio .header .content {
+    padding: 0;
+  }
+
+  .portfolio .header .content > div {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .portfolio .header .content > div:last-child {
+    width: 100%;
+  }
+
+  .portfolio .header .title img {
+  height: 40px;
+  }
+
+  .portfolio .bottom-bg {
+    display: none;
+  }
+
+  .portfolio section {
+    padding: 20px;
+  }
+
+  .portfolio .concept .row .column {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .portfolio .concept .row > div:last-child {
+    padding-left: 15px;
+  }
+
+  .section-table > div {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .section-table > div:last-child {
+    padding-left: 0;
+  }
+
+  .create-protest .text {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .create-protest img {
+    margin-bottom: 30px;
+  }
+
+  .create-protest .content {
+    padding-bottom: 0;
+  }
+
+  .create-protest .full-image {
+    margin-top: 0px;
+  }
+
+  section > div {
+  padding: 0 20px;
+  }
+
+  .portfolio .section-title {
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .map .text {
+    padding: 0;
+  }
+
 }
