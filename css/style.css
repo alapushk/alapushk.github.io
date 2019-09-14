@@ -264,17 +264,17 @@ p.intro > .link {
   font-family: 'Muli Black';
   font-size: 42px;
   letter-spacing: 1px;
-  color: #234ef3;
+  color: #573ADD;
 }
 
 .intro-body .name .light {
-  color: #c7d2f9;
+  color: #BEB0FF;
 }
 
 .intro-body .subtitle {
   text-transform: uppercase;
   font-family: 'Muli Bold';
-  color: #9AB5FF;
+  color: #BEB0FF;
   font-size: 18px;
   letter-spacing: 2px;
 }
@@ -330,7 +330,7 @@ p.intro > .link {
 
 header > div {
   max-width: 1200px;
-  margin: 30px auto;
+  margin: 80px auto;
   display: table;
   padding: 0 50px;
   width: 100%;
@@ -614,7 +614,25 @@ ul li::before {
 
 ul li.title {
   margin-left: 10px;
-  color: #8ba0ff;
+  color: #FC4C01;
+  text-transform: uppercase;
+  font-family: 'Muli Black';
+}
+
+.oyan ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/oyan/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.oyan ul li.title {
+  margin-left: 10px;
+  color: #AD0000;
   text-transform: uppercase;
   font-family: 'Muli Black';
 }
