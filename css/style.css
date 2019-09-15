@@ -249,6 +249,25 @@ nav .container .links > a:last-child {
   opacity: 0.7;
 }
 
+.expenses-card {
+  background-color: #B0BCF6;
+  background: url(../img/expenses-card.png) bottom center no-repeat;
+  background-size: auto 600px;
+}
+
+.expenses-card .label {
+  background-color: #B0BCF6;
+}
+
+.expenses-card .title img {
+  height: 45px;
+}
+
+.expenses-card .text .desc {
+  color: #384673;
+  opacity: 0.7;
+}
+
 p.intro {
   line-height: 26px;
 }
