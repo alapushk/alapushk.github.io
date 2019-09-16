@@ -315,6 +315,18 @@ p.intro > .link {
   height: 30px;
 }
 
+.expenses {
+  color: #384673;
+}
+
+.expenses .about p {
+  opacity: 0.8;
+}
+
+.expenses section {
+  padding-bottom: 100px;
+}
+
 .portfolio .header .content {
   display: table;
   max-width: 1200px;
@@ -405,6 +417,16 @@ header .profile-img img {
   height: 100%;
 }
 
+.expenses .bottom-bg {
+  position: absolute;
+  background: url(../img/expenses/header-bg.svg) bottom center no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: -50px;
+  width: 101%;
+  height: 100%;
+}
+
 .strava section {
   padding-bottom: 100px;
 }
@@ -442,6 +464,11 @@ header .profile-img img {
   margin: 0;
 }
 
+.grey-bg3 {
+  display: block;
+  background-color: #F8F8FF;
+}
+
 .orange-bg {
   background-color: #FC4C01;
   display: block;
@@ -462,6 +489,10 @@ section > div {
   text-transform: uppercase;
   font-weight: 100;
   margin-bottom: 30px;
+}
+
+.expenses .section-title {
+  color: #2B4084;
 }
 
 .portfolio .concept h4 {
@@ -652,6 +683,29 @@ ul li.title {
 .oyan ul li.title {
   margin-left: 10px;
   color: #AD0000;
+  text-transform: uppercase;
+  font-family: 'Muli Black';
+}
+
+.expenses ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/expenses/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.expenses ul li {
+  color: #384673;
+  opacity: 0.8;
+}
+
+.expenses ul li.title {
+  margin-left: 10px;
+  color: #B0BCF6;
   text-transform: uppercase;
   font-family: 'Muli Black';
 }
