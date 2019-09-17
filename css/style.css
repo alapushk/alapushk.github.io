@@ -448,8 +448,13 @@ header .profile-img img {
   line-height: 30px;
   font-size: 18px;
 }
+
 .portfolio .discover {
   margin-top: 0px;
+}
+
+.portfolio .process {
+  margin-top: 45px;
 }
 
 .grey-bg {
