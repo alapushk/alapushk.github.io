@@ -550,6 +550,10 @@ section > div {
   width: 100%;
 }
 
+.expenses .section-table {
+  padding-bottom: 50px;
+}
+
 .section-table > div {
   display: table-cell;
   vertical-align: middle;
@@ -945,6 +949,15 @@ footer .img-list img {
 
   .section-table > div:last-child {
     padding-left: 0;
+  }
+
+  .expenses .features .text {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .expenses .features .section-table > div {
+    width: 100%;
   }
 
   .create-protest .text {
