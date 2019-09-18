@@ -511,6 +511,11 @@ section > div {
   margin-bottom: 0;
 }
 
+.expenses .concept h4 {
+  color: #2B4084;
+  opacity: 0.8;
+}
+
 .portfolio .concept .row > div:first-child {
   padding-right: 50px;
 }
@@ -533,6 +538,11 @@ section > div {
 
 .portfolio .concept p {
   opacity: 0.7;
+}
+
+.expenses .concept p {
+  color: #384673;
+  opacity: 0.8;
 }
 
 .section-table {
@@ -559,6 +569,28 @@ section > div {
 .section-table .gif-image img {
   max-height: 70vh;
   margin: auto;
+}
+
+.expenses .features .section-table > div {
+  width: 40%;
+}
+
+.features .title {
+  font-size: 18px;
+  color: #384673;
+  margin-bottom: 20px;
+  font-family: 'Muli Bold';
+  text-transform: uppercase;
+}
+
+.features .desc {
+  font-size: 18px;
+  color: #384673;
+  opacity: 0.8
+}
+
+.features .text {
+  padding: 0 50px;
 }
 
 .create-protest {
