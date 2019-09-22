@@ -275,7 +275,8 @@ nav .container .links > a:last-child {
 }
 
 .sephora-card .label {
-  background-color: #CC0000;
+  background-color: #E9E9E9;
+  color: #737679;
 }
 
 .sephora-card .title img {
@@ -483,8 +484,8 @@ header .profile-img img {
 }
 
 .sephora .black-bg {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -1px;
+  margin-bottom: -1px;
   background-color: black;
 }
 
@@ -493,7 +494,7 @@ header .profile-img img {
   letter-spacing: 0.5px;
 }
 
-.sephora .black-bg .text {
+.sephora .black-bg .text p {
   color: white;
   opacity: 0.5;
   letter-spacing: 0.5px;
@@ -550,10 +551,6 @@ header .profile-img img {
 
 .sephora .header .desc {
   opacity: 0.5;
-}
-
-.sephora .about {
-  margin-top: 0;
 }
 
 section > div {
@@ -620,6 +617,18 @@ section > div {
 .expenses .concept p {
   color: #384673;
   opacity: 0.8;
+}
+
+.sephora .about {
+  margin-top: 0;
+}
+
+.sephora .about .row {
+  margin-bottom: 0;
+}
+
+.sephora .about .column {
+  padding-bottom: 0;
 }
 
 .section-table {
@@ -830,7 +839,7 @@ ul li.title {
 
 .sephora ul li {
   color: white;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .sephora ul li::before {
@@ -842,6 +851,14 @@ ul li.title {
   background-size: 6px;
   background-position-y: 0;
   background-position-x: 0;
+}
+
+.sephora ul li.title {
+  margin-left: 10px;
+  color: white;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-family: 'Muli Black';
 }
 
 ul li.title::before {
