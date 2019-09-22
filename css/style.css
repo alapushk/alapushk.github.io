@@ -268,6 +268,25 @@ nav .container .links > a:last-child {
   opacity: 0.7;
 }
 
+.sephora-card {
+  background-color: #CC0000;
+  background: url(../img/sephora-card.png) bottom center no-repeat;
+  background-size: auto 600px;
+}
+
+.sephora-card .label {
+  background-color: #CC0000;
+}
+
+.sephora-card .title img {
+  height: 45px;
+}
+
+.sephora-card .text .desc {
+  color: #383d41;
+  opacity: 0.7;
+}
+
 p.intro {
   line-height: 26px;
 }
@@ -388,6 +407,10 @@ header .profile-img img {
   height: auto;
 }
 
+.no-margin {
+  margin-left: -50px;
+}
+
 .full-image {
   display: block;
   width: 100%;
@@ -427,6 +450,16 @@ header .profile-img img {
   height: 100%;
 }
 
+.sephora .bottom-bg {
+  position: absolute;
+  background: url(../img/sephora/header-bg.svg) bottom center no-repeat;
+  background-size: contain;
+  left: 0;
+  bottom: -50px;
+  width: 101%;
+  height: 100%;
+}
+
 .strava section {
   padding-bottom: 100px;
 }
@@ -447,6 +480,23 @@ header .profile-img img {
   color: #323232;
   line-height: 30px;
   font-size: 18px;
+}
+
+.sephora .black-bg {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: black;
+}
+
+.sephora .black-bg .section-title {
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.sephora .black-bg .text {
+  color: white;
+  opacity: 0.5;
+  letter-spacing: 0.5px;
 }
 
 .portfolio .discover {
@@ -477,6 +527,33 @@ header .profile-img img {
 .orange-bg {
   background-color: #FC4C01;
   display: block;
+}
+
+.sephora nav {
+  background-color: black;
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+
+.sephora nav .container a.logo {
+  color: white;
+}
+
+.sephora nav .container .links a {
+  color: white;
+}
+
+.sephora .header {
+  background-color: black;
+  color: white;
+}
+
+.sephora .header .desc {
+  opacity: 0.5;
+}
+
+.sephora .about {
+  margin-top: 0;
 }
 
 section > div {
@@ -749,6 +826,22 @@ ul li.title {
   color: #B0BCF6;
   text-transform: uppercase;
   font-family: 'Muli Black';
+}
+
+.sephora ul li {
+  color: white;
+  opacity: 0.8;
+}
+
+.sephora ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/sephora/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
 }
 
 ul li.title::before {
