@@ -525,6 +525,11 @@ header .profile-img img {
   background-color: #F8F8FF;
 }
 
+.grey-bg4 {
+  display: block;
+  background-color: #E9E9E9;
+}
+
 .orange-bg {
   background-color: #FC4C01;
   display: block;
@@ -853,12 +858,31 @@ ul li.title {
   background-position-x: 0;
 }
 
-.sephora ul li.title {
+.sephora .analysis ul li {
+  color: #323232;
+  opacity: 0.7;
+}
+
+.sephora .analysis ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/sephora/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.sephora .analysis ul li.title {
   margin-left: 10px;
-  color: white;
-  opacity: 0.8;
+  color: #CC0000;
   text-transform: uppercase;
   font-family: 'Muli Black';
+}
+
+.sephora .analysis ul li.title::before {
+  content: none;
 }
 
 ul li.title::before {
