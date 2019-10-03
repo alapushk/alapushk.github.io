@@ -152,11 +152,21 @@ nav .container .links > a:last-child {
   padding: 10px;
 }
 
+.column-full {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
 .projects-div .card-container {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.10);
   -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.10);
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.10);
   height: 600px;
+}
+
+.deloitte-card.card, .dt.card-container {
+  height: 400px;
 }
 
 .card {
@@ -289,6 +299,26 @@ nav .container .links > a:last-child {
 
 .sephora-card .text .desc {
   color: #383d41;
+  opacity: 0.7;
+}
+
+.deloitte-card {
+  background-color: #CC0000;
+  background: url(../img/deloitte-card-1.png) left center no-repeat;
+  background-size: cover;
+}
+
+.deloitte-card .label {
+  background-color: #FAFAFA;
+  color: #737679;
+}
+
+.deloitte-card .title img {
+  height: 45px;
+}
+
+.deloitte-card .text .desc {
+  color: #323232;
   opacity: 0.7;
 }
 
@@ -1099,6 +1129,12 @@ footer .img-list img {
     border-bottom: 1px solid black;
     width: 50px;
     margin: 10px auto;
+  }
+
+  .deloitte-card.card, .dt.card-container {
+    height: 600px;
+    background: url(../img/deloitte-card-mobile.png) left center no-repeat;
+    background-size: cover;
   }
 
   .mobile-header {
