@@ -505,6 +505,11 @@ header .profile-img img {
   letter-spacing: 0.5px;
 }
 
+.deloitte .black-bg {
+  background-color: black;
+  color: white;
+}
+
 .portfolio .discover {
   margin-top: 0px;
 }
@@ -563,6 +568,25 @@ header .profile-img img {
   opacity: 0.5;
 }
 
+.deloitte nav {
+  background-color: black;
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+
+.deloitte nav .container a.logo {
+  color: white;
+}
+
+.deloitte nav .container .links a {
+  color: white;
+}
+
+.deloitte .header {
+  background-color: black;
+  color: white;
+}
+
 section > div {
   padding: 0 50px;
   max-width: 1200px;
@@ -578,6 +602,10 @@ section > div {
   text-transform: uppercase;
   font-weight: 100;
   margin-bottom: 30px;
+}
+
+.deloitte .section-title {
+  color: #86bc25;
 }
 
 .expenses .section-title {
@@ -740,6 +768,10 @@ section > div {
   padding-bottom: 50px;
 }
 
+.map .section-desc a{
+  color: #86bc25;
+}
+
 .map .text .title {
   font-family: 'Open Sans Bold';
   font-size: 28px;
@@ -888,6 +920,71 @@ ul li.title {
 
 .sephora .analysis ul li.title::before {
   content: none;
+}
+
+.deloitte ul li::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 18px;
+  background: url(../img/deloitte/bullet.svg) center center no-repeat;
+  background-size: 6px;
+  background-position-y: 0;
+  background-position-x: 0;
+}
+
+.deloitte ul li {
+  color: #323232;
+  opacity: 0.8;
+}
+
+.deloitte ul li.title {
+  margin-left: 10px;
+  color: #86bc25;
+  text-transform: uppercase;
+  font-family: 'Muli Black';
+}
+
+.deloitte .strategy p.lead {
+  opacity: 1;
+  font-style: italic;
+  font-size: 24px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 30px;
+}
+
+.deloitte .notes {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #f7f7f7;
+  display: inline-block;
+}
+
+.deloitte .notes p {
+  margin: 0;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.deloitte .notes .title {
+  margin-bottom: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.deloitte .notes a {
+  color: #86bc25;
+}
+
+.deloitte .notes ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 ul li.title::before {
