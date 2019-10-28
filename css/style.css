@@ -794,6 +794,10 @@ section > div {
   text-align: center;
 }
 
+.text .center {
+  text-align: center;
+}
+
 .create-protest .content {
   padding-bottom: 0px;
 }
