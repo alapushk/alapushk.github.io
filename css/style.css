@@ -416,6 +416,12 @@ p.intro > .link {
   margin-bottom: 30px;
 }
 
+.portfolio .header .subtitle {
+  font-size: 30px;
+  font-family: 'Open Sans Bold';
+  margin-bottom: 30px;
+}
+
 .portfolio .header .desc {
   font-size: 18px;
   letter-spacing: 0.5px;
