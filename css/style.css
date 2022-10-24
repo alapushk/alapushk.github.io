@@ -496,7 +496,7 @@ header .profile-img img {
 }
 
 .douglas .header .title img {
-  height: 124px;
+  height: 128px;
 }
 
 .img-responsive {
@@ -1362,6 +1362,10 @@ footer .img-list img {
 
   .portfolio .header .title img {
   height: 40px;
+  }
+
+  .douglas .header .title img {
+  height: 120px;
   }
 
   .portfolio .bottom-bg {
